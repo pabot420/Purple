@@ -1,0 +1,30 @@
+{
+  "name": "purple",
+  "version": "1.0.0",
+  "description": "Experience web apps differently",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L1lith/Purple.git"
+  },
+  "keywords": [
+    "JS",
+    "JSX",
+    "framework",
+    "reactive",
+    "server",
+    "side",
+    "web",
+    "apps",
+    "isomorphic"
+  ],
+  "author": "L1lith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/L1lith/Purple/issues"
+  },
+  "homepage": "https://github.com/L1lith/Purple#readme"
+}
