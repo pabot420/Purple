@@ -36,6 +36,6 @@ New fangled JS frameworks might be on the road to creating better developer tool
 
 4.  Lack of adoption limits a project's potential (less field-testing, contributors, and job opportunities)
 
-\## What is Purple?
+## What is Purple?
 
 Purple is being developed to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it from scratch.
