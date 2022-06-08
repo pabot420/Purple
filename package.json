@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "browser-refresh --enable-source-maps -r @babel/register -r marko/node-require source/server.js",
-    "start": "NODE_ENV=production node -r @babel/register -r marko/node-require source/server.js"},
+    "dev": "browser-refresh --enable-source-maps -r @babel/register -r @marko/compiler/register source/server.js",
+    "start": "NODE_ENV=production node -r @babel/register -r @marko/compiler/register source/server.js"},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/L1lith/Purple.git"
