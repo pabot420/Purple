@@ -28,14 +28,14 @@ I was noticing a trend. To make the best framework you can't get there by compri
 
 New fangled JS frameworks might be on the road to creating better developer tools, but they're still experiencing growing pains. We need to re-evaluate which parts have made developing apps harder not easier compared to "ancient" languages like **PHP** and **Rudolph on Rails**. Here's some of the other places I've had the hardest time
 
-1.  Support for CSS Modules & Preprocessors
+1.  General lack of high-quality add-on plugins/packages in the ecosystem (leading to the next 2 issues)
 
-2.  Internationalization is hard (libraries do exist but they seem to be significantly lacking in my experience)
+2.  Support for CSS Modules & Preprocessors
 
-3.  General lack of add-on plugins/packages in the ecosystem
+3.  Internationalization is very hard
 
 4.  Lack of adoption limits a project's potential (less field-testing, contributors, and job opportunities)
 
 ## What is Purple?
 
-Purple is being developed to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it from scratch.
+Purple is being developed to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it from scratch. I plan to write as much from scratch as I need to, while still relying on as many high quality open-source projects as possible to improve maintainability.
