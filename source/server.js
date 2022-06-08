@@ -29,7 +29,7 @@ Object.entries(deepTemplates)
         .split("$")
         .map((value) => (value === "index" ? "" : value))
         .join("/");
-    console.log(url, path);
+    //console.log(url, path);
     pages.get(url, (ctx) => {
       const data = ctx.request.body || {};
       data.url = url;
