@@ -38,7 +38,7 @@ New fangled JS frameworks might be on the road to creating better developer tool
 
 ## What is Purple?
 
-Purple is being developed to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it from scratch. I plan to write as much from scratch as I need to, while still relying on as many high quality open-source projects as possible to improve maintainability.
+Purple is being developed as a web app starter to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it. I plan to rely on as many high quality open-source projects as possible to improve maintainability, and fill the gaps in with my own code 
 
 ### Current tools I'm considering integrating:
 - Marko
