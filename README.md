@@ -44,3 +44,5 @@ Purple is being developed to solve these issues. It strives to seek harmony betw
 - Marko
 - Mitosis
 - JSX
+- Babel or Vite
+- Emerald Templates
