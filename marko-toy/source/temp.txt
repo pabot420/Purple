@@ -1,0 +1,20 @@
+```
+WARNING!!
+Using `marko/compiler` has been deprecated, please upgrade to the `@marko/compiler` module.
+  at node:internal/modules/cjs/loader:1105:14
+
+
+  TypeError: Cannot read properties of undefined (reading 'replace')
+      at render (/Users/USER/PROJECT/node_modules/@lasso/marko-taglib/taglib/slot-tag.js:92:57)
+      at render (/Users/USER/PROJECT/node_modules/@lasso/marko-taglib/taglib/head-tag.js:16:3)
+      at renderTagHelper (/Users/USER/PROJECT/node_modules/marko/src/runtime/helpers/render-tag.js:15:77)
+      at _marko_template._.t (/Users/USER/PROJECT/source/components/app-layout/index.marko:51:26)
+      at renderer (/Users/USER/PROJECT/node_modules/marko/src/runtime/components/renderer.js:218:5)
+      at renderTagHelper (/Users/USER/PROJECT/node_modules/marko/src/runtime/helpers/render-tag.js:15:77)
+      at _marko_template._.t (/Users/USER/PROJECT/source/pages/index.marko:32:26)
+      at renderer (/Users/USER/PROJECT/node_modules/marko/src/runtime/components/renderer.js:218:5)
+      at safeRender (/Users/USER/PROJECT/node_modules/marko/src/runtime/renderable.js:7:5)
+      at Template.render (/Users/USER/PROJECT/node_modules/marko/src/runtime/renderable.js:139:14)
+
+Error: write after end
+```
