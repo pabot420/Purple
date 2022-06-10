@@ -40,9 +40,11 @@ New fangled JS frameworks might be on the road to creating better developer tool
 
 Purple is being developed as a web app starter to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it. I plan to rely on as many high quality open-source projects as possible to improve maintainability, and fill the gaps in with my own code 
 
-### Current tools I'm considering integrating:
+### Current tech I'm considering integrating:
 - Marko
 - Mitosis
 - JSX
 - Babel or Vite
 - Emerald Templates
+- GraphQL
+- Service Workers
