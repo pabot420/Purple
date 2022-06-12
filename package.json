@@ -1,15 +1,15 @@
 {
   "name": "purple",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A next gen web app template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "purple": "./install.js"
+    "purple": "./generate.js"
   },
-  "files": ["README.md", "GEMS.md"],
+  "files": ["README.md", "GEMS.md", "generate.js"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/L1lith/Purple.git"
