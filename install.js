@@ -12,10 +12,10 @@ try {
   if (!alreadyInstalledRegex.test(error)) throw error;
 }
 
-const process = spawn("npx", "emerald-templates generate purple".split(" "), {
+const io = spawn("npx", "emerald-templates generate purple".split(" "), {
   stdio: "inherit",
 });
 
-process.on("close", (code) => {
+io.on("close", (code) => {
   process.exit(code);
 });
