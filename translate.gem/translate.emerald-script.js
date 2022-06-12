@@ -7,6 +7,7 @@ const {
   removeSync,
   readFileSync,
   outputFileSync,
+  existsSync,
 } = require("fs-extra");
 const {
   languages,
@@ -17,8 +18,10 @@ const { inspect } = require("util");
 
 const pagesSource = join(__dirname, "src", "pages-src");
 const pagesDir = join(__dirname, "src", "pages");
+const hasPages = existsSync(pagesSource);
 const componentsSource = join(__dirname, "src", "components-src");
 const componentsDir = join(__dirname, "src", "components");
+const hasComponents = existsSync(componentsSource);
 
 removeSync(pagesDir);
 if (translateComponents) removeSync(componentsDir);
@@ -28,10 +31,12 @@ languages?.forEach((lang) => {
   if (typeof lang == "string") {
     lang = { lang };
   }
-  const langPagesDir = join(pagesDir, lang.lang);
-  copySync(pagesSource, langPagesDir);
-  processLanguages(langPagesDir, lang);
-  if (translateComponents) {
+  if (hasPages) {
+    const langPagesDir = join(pagesDir, lang.lang);
+    copySync(pagesSource, langPagesDir);
+    processLanguages(langPagesDir, lang);
+  }
+  if (hasComponents && translateComponents) {
     const langComponentsDir = join(componentsDir, lang.lang);
     copySync(componentsSource, langComponentsDir);
     processLanguages(langComponentsDir, lang);
