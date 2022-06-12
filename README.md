@@ -5,7 +5,7 @@ npx purple
 ```
 
 ## Using Gems
-Please see the [Gems Page]() to understand how to use the gems. The gems provide various functionality like translation.
+Please see the [Gems Page](https://github.com/L1lith/Purple/blob/master/GEMS.md) to understand how to use the gems. The gems provide various functionality like translation.
 
 
 # What's the problem with building apps?
