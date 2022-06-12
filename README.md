@@ -51,5 +51,5 @@ New fangled JS frameworks might be on the road to creating better developer tool
 Purple is being developed as a web app starter to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it. I plan to rely on high quality open-source projects as much as possible to improve stability, and fill the gaps in with my own code. 
 
 ### Current tech stack (subject to change):
-- Emerald Templates
-- Astro
+- [Astro](https://astro.build)
+- [Emerald Templates](https://github.com/L1lith/Emerald-Templates)
