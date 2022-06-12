@@ -1,12 +1,12 @@
 # How to use Purple
-First install [Emerald Templates](https://github.com//L1lith/Emerald-Templates).
-`npm install -g emerald-templates`
+If you wanna setup a Purple project quickly try this command
+```
+npx purple
+```
 
-Next run this command to install the template in the current directory
-`emt install https://github.com/L1lith/Purple`
+## Using Gems
+Please see the [Gems Page]() to understand how to use the gems. The gems provide various functionality like translation.
 
-Use this command to generate a new app in the current directory
-`emt gen purple`
 
 # What's the problem with building apps?
 
