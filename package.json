@@ -9,7 +9,7 @@
   "bin": {
     "purple": "./install.js"
   },
-  "files": [],
+  "files": ["README.md", "GEMS.md"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/L1lith/Purple.git"
