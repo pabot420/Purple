@@ -36,7 +36,7 @@ I was noticing a trend. To make the best framework you can't get there by compri
 
 ## 3. It eliminates pain points
 
-New fangled JS frameworks might be on the road to creating better developer tools, but they're still experiencing growing pains. We need to re-evaluate which parts have made developing apps harder not easier compared to "ancient" languages like **PHP** and **Rudolph on Rails**. Here's some of the other places I've had the hardest time
+New fangled JS frameworks might be on the road to creating better developer tools, but they're still experiencing growing pains. We need to re-evaluate which parts have made developing apps harder not easier compared to "ancient" languages like **PHP** and **Ruby on Rails**. Here's some of the other places I've had the hardest time
 
 1.  General lack of high-quality add-on plugins/packages in the ecosystem (leading to the next 2 issues)
 
