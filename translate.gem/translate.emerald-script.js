@@ -79,8 +79,7 @@ function processLanguages(dir, langOptions) {
       processLanguages(path, langOptions);
     } else {
       // It's a file
-      const extension = extname(file);
-      if (astrosOnly && extension === ".astro") {
+      if (!astrosOnly || extname(file) === ".astro") {
         // We have an Astro file
         const translationsPath = join(
           translationsDir,
