@@ -15,3 +15,9 @@ You can list the available gems like this:
 ```
 emt gems
 ```
+
+## Translate
+in order to translate your `pages-src` folder into your pages run the translate gem
+```
+emt gem translate
+```
