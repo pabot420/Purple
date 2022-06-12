@@ -1,0 +1,32 @@
+{
+  "name": "purple",
+  "version": "1.0.0",
+  "description": "A next gen web app template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "purple": "./bin/index.js"
+  },
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L1lith/Purple.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "template",
+    "isomorphic"
+  ],
+  "author": "L1lith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/L1lith/Purple/issues"
+  },
+  "homepage": "https://github.com/L1lith/Purple#readme",
+  "dependencies": {
+    "emerald-templates": "^0.4.3"
+  }
+}

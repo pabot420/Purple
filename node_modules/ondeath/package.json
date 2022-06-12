@@ -1,0 +1,30 @@
+{
+  "name": "ondeath",
+  "version": "1.0.0",
+  "description": "onDeath() will register callbacks to call right before your Node.js program terminates.",
+  "main": "ondeath.js",
+  "scripts": {
+    "test": "./test/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfreddatakillen/ondeath.git"
+  },
+  "keywords": [
+    "terminate",
+    "terminates",
+    "termination",
+    "quit",
+    "quits",
+    "exit",
+    "exits",
+    "death",
+    "dead"
+  ],
+  "author": "Alfred Godoy <alfred@nurd.nu>",
+  "license": "(ISC OR GPL-3.0)",
+  "bugs": {
+    "url": "https://github.com/alfreddatakillen/ondeath/issues"
+  },
+  "homepage": "https://github.com/alfreddatakillen/ondeath#readme"
+}

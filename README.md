@@ -1,4 +1,14 @@
-# What's the problem?
+# How to use Purple
+First install [Emerald Templates](https://github.com//L1lith/Emerald-Templates).
+`npm install -g emerald-templates`
+
+Next run this command to install the template in the current directory
+`emt install https://github.com/L1lith/Purple`
+
+Use this command to generate a new app in the current directory
+`emt gen purple`
+
+# What's the problem with building apps?
 
 I've spent a long time researching a variety of web frameworks (from Ruby on Rails to React & Solid.js) Here's what I learned about good framework design:
 
