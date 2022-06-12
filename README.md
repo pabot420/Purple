@@ -8,7 +8,7 @@ npx purple
 Please see the [Gems Page](https://github.com/L1lith/Purple/blob/master/GEMS.md) to understand how to use the gems. The gems provide various functionality like translation.
 
 
-# What's the problem with building apps?
+# Why Purple?
 
 I've spent a long time researching a variety of web frameworks (from Ruby on Rails to React & Solid.js) Here's what I learned about good framework design:
 
@@ -48,13 +48,8 @@ New fangled JS frameworks might be on the road to creating better developer tool
 
 ## What is Purple?
 
-Purple is being developed as a web app starter to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it. I plan to rely on as many high quality open-source projects as possible to improve maintainability, and fill the gaps in with my own code 
+Purple is being developed as a web app starter to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it. I plan to rely on high quality open-source projects as much as possible to improve stability, and fill the gaps in with my own code. 
 
-### Current tech I'm considering integrating:
-- Marko
-- Mitosis
-- JSX
-- Babel or Vite
+### Current tech stack (subject to change):
 - Emerald Templates
-- GraphQL
-- Service Workers
+- Astro
