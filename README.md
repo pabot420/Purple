@@ -1,18 +1,18 @@
-# How to use Purple
-If you wanna setup a Purple project quickly try this command
-```
-npx purple
-```
+# Purple
 
-## Using Gems
-Please see the [Gems Page](https://github.com/L1lith/Purple/blob/master/GEMS.md) to understand how to use the gems. The gems provide various functionality like translation.
+Purple is a powerful website template based on Astro. It's currently operational but it's still very young. It aims to provide translations baked-in at the HTML level.
 
+| Feature                  | Stage                                                          |
+| :----------------------- | :------------------------------------------------------------- |
+| Translation              | Beta (functional but very immature)                            |
+| Website Template Library | \[Consideration]\(<https://github.com/L1lith/Purple/issues/4)> |
+| Offline Support          | Planned                                                        |
 
-# Why Purple?
+## What's the problem?
 
 I've spent a long time researching a variety of web frameworks (from Ruby on Rails to React & Solid.js) Here's what I learned about good framework design:
 
-## 1. It makes developers happy
+### 1. It makes developers happy
 
 Writing apps in JSX is actually quite fun. State solutions in the browser (like MobX and Redux) when combined with rendering libraries seem like the new browser side MVC architecture, and if any of these terms sound confusing that's because they are. By pushing all of our code into the browser as Javascript we make it easy to develop highly interactive apps, and deploy them isomorphically (meaning we can run the same code in the server and the browser).
 
@@ -22,7 +22,7 @@ In a lot of cases this ends up sabotaging the user experience, but it doesn't ha
 
 2.  The developer who doesn't really feel like maintaining two separate code bases for the front end and back end, and/or prefers JavaScript for it's nice syntax and good async/streaming capabilities.
 
-## 2. It makes users happy
+### 2. It makes users happy
 
 Normal apps using JSX run one of the following ways
 
@@ -34,9 +34,9 @@ Normal apps using JSX run one of the following ways
 
 I was noticing a trend. To make the best framework you can't get there by comprimising load times. To make the best apps we need to focus on doing as much work in the server as possible, and not dump a whole bunch of code into the browser (this is the symptom of coding tools being poorly optimized, not an inherent trade-off).
 
-## 3. It eliminates pain points
+### 3. It eliminates pain points
 
-New fangled JS frameworks might be on the road to creating better developer tools, but they're still experiencing growing pains. We need to re-evaluate which parts have made developing apps harder not easier compared to older languages like **PHP** and **Ruby on Rails**. Here's some of the other places I've had the hardest time
+New fangled JS frameworks might be on the road to creating better developer tools, but they're still experiencing growing pains. We need to re-evaluate which parts have made developing apps harder not easier compared to "ancient" languages like **PHP** and **Rudolph on Rails**. Here's some of the other places I've had the hardest time
 
 1.  General lack of high-quality add-on plugins/packages in the ecosystem (leading to the next 2 issues)
 
@@ -48,8 +48,4 @@ New fangled JS frameworks might be on the road to creating better developer tool
 
 ## What is Purple?
 
-Purple is being developed as a web app starter to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it. I plan to rely on high quality open-source projects as much as possible to improve stability, and fill the gaps in with my own code. 
-
-### Current tech stack (subject to change):
-- [Astro](https://astro.build)
-- [Emerald Templates](https://github.com/L1lith/Emerald-Templates)
+Purple is being developed to solve these issues. It strives to seek harmony between user and developer experiences. I previously took a break from this project and now I am rewriting it from scratch. I plan to write as much from scratch as I need to, while still relying on as many high quality open-source projects as possible to improve maintainability.
