@@ -5,8 +5,8 @@ Purple is a powerful website template based on Astro. It's currently operational
 | Feature                  | Stage                                                          |
 | :----------------------- | :------------------------------------------------------------- |
 | Translation              | Beta (functional but very immature)                            |
-| Website Template Library | \[Consideration]\(<https://github.com/L1lith/Purple/issues/4)> |
-| Offline Support          | Planned                                                        |
+| Website Template Library | [Consideration](<https://github.com/L1lith/Purple/issues/4)>)  |
+| Offline Support          | [Planned](https://github.com/L1lith/Purple/issues/5)           |
 
 ## What's the problem?
 
