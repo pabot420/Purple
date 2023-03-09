@@ -1,6 +1,7 @@
 # Purple
 
 Purple is a powerful website template based on Astro. It's currently operational but it's still very young. It aims to provide translations baked-in at the HTML level.
+[Read about the translation: How translation could be easier in JavaScript](https://webslc.com/articles/translation-could-be-easy/)
 
 | Feature                  | Stage                                                          |
 | :----------------------- | :------------------------------------------------------------- |

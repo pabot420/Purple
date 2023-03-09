@@ -23,8 +23,8 @@ const componentsSource = join(__dirname, "src", "components-src");
 const componentsDir = join(__dirname, "src", "components");
 const hasComponents = existsSync(componentsSource);
 
-removeSync(pagesDir);
-if (translateComponents) removeSync(componentsDir);
+// if (hasPages && translatePages) removeSync(pagesDir);
+// if (hasComponents && translateComponents) removeSync(componentsDir);
 
 //copySync(pagesSource, join(pagesDir, languageData.primary));
 languages?.forEach((lang) => {
