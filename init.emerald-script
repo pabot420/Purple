@@ -1,5 +1,3 @@
 npm create astro@latest project-temp
 cp -R project-temp/. . && rm -rf project-temp
-mv ./src/pages ./src/pages-src
-mv ./src/components ./src/components-src
-cp -R $TEMPLATE_FOLDER/post-install/* .
+npm install astro-i18next
