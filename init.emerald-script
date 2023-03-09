@@ -1,3 +1,4 @@
 npm create astro@latest project-temp
 cp -R project-temp/. . && rm -rf project-temp
 npm install astro-i18next
+npx astro add solid
